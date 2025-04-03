@@ -1,0 +1,34 @@
+.transcription {
+  ul {
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      @include tablet {
+        flex-direction: column;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        display: block;
+        width: 48%;
+
+        @include tablet {
+          order: -1;
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+      }
+
+      figure {
+        max-width: 48%;
+
+        @include tablet {
+          max-width: 100%;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

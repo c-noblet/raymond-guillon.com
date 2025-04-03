@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: http://ogp.me/ns/article#">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raymond Guillon | Traductions - Français, Allemand</title>
+<meta name="description" content="Titulaire d’un Diplôme universitaire de traduction (français-espagnol-allemand), bilingue allemand-français, je suis spécialisé depuis 1999 dans la traduction de documents et actes juridiques en français et en allemand.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="John Doe">
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+<script src="/js/app.js" type="text/javascript"></script>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+<link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<meta property="og:title" content="Raymond Guillon | Traductions - Français, Allemand" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://raymond-guillon.com/fr" />
+<meta property="og:image" content="https://raymond-guillon.com/assets/profil.jpg" />
+<meta property="og:site_name" content="Raymond Guillon | Traductions - Français, Allemand" />
+
+</head>
+
+<body>
+  <nav class="navbar mx" x-data="{ 
+    url: '/mentions-legales',
+    logo: '/mentions-legales' === '/'  ? false : true,
+    lang: 'fr',
+    dropdown: false,
+  }">
+  <a id="logo" href="/fr" x-show="logo">
+    <img src="/assets/profil.jpg" alt="Raymond Guillon">
+    <span>Raymond Guillon</span>
+  </a>
+  <div id="links" style="height: 0;">
+    <ul>
+      <li :class="{ 'active': url === 'carriere' }"><a href="/fr/carriere">Carrière</a></li>
+      <li @click.away="dropdown = false" class="drop-down ">
+        <a id="drop-btn" href="#" @click="dropdown = true">
+          Compétences <i class="fas fa-sort-down"></i>
+        </a>
+        <ul id="modal" x-show="dropdown || window.innerWidth < 768">
+          <li><a href="/fr/traductions-juridiques">Traductions juridiques certifiées </a></li>
+          <li><a href="/fr/droit-penal">Droit pénal</a></li>
+          <li><a href="/fr/droit-civil">Droit civil</a></li>
+          <li><a href="/fr/traductions-actes">Traduction d’actes</a></li>
+          <li><a href="/fr/interpretariat">Interprétariat de liaison</a></li>
+        </ul>
+      </li>
+      <li :class="{ 'active': url === '/transcriptions' }"><a href="/fr/transcriptions">Transcription</a></li>
+      <li :class="{ 'active': url === '/methodes' }"><a href="/fr/methodes">Honoraires</a></li>
+      <li :class="{ 'active': url === '/contact' }"><a href="/fr/contact">Contact</a></li>
+    </ul>
+    <select id="lang-selector" name="lang">
+      
+      <option x-bind:selected="lang === 'de'" value="de">Allemand </option>
+      
+      <option x-bind:selected="lang === 'fr'" value="fr">Français </option>
+      
+    </select>
+  </div>
+  <div id="burger">
+    <span></span>
+  </div>
+</nav>
+
+  
+    <main class="mx container mentions-legales mt">
+    <article>
+      <h2>Mentions légales</h2>
+      <h3>Propriétaire et responsable publication du site</h3>
+      <p>
+        <strong>Raison sociale :</strong> Raymond Guillon, entrepreneur individuel
+        <br />
+        <strong>Adresse :</strong> Les Mathieux, F-47360 Sembas
+        <br />
+        <strong>Téléphone :</strong> +33 (0)6 82 10 88 55
+        <br />
+        <strong>Adresse e-mail :</strong>
+        <a href="mailto:r.guillon@wanadoo.fr">r.guillon@wanadoo.fr</a>
+        <br />
+        <strong>Régime :</strong> Régime de la déclaration contrôlée - BNC (Bénéfices non commerciaux)
+        <br />
+        <strong>SIRET :</strong> 424 500 874 00054
+      </p>
+      <h3>Hébergement du site</h3>
+      <p>
+        <strong>Hébergeur :</strong> Digital Ocean
+        <br />
+        <strong>Adresse web :</strong>
+        <a href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer">digitalocean.com</a>
+        <br />
+        <strong>Adresse postale :</strong> 101 6th Ave, New York, NY 10013, United States
+        <br />
+        <strong>Téléphone :</strong> +1 347-903-7918
+      </p>
+      <h3>Réalisation du site</h3>
+      <p>
+        <strong>Webmaster :</strong> Corentin Noblet
+        <br />
+        <strong>Adresse e-mail :</strong>
+        <a href="mailto:c.noblet.dev@gmail.com">c.noblet.dev@gmail.com</a>
+        <br />
+        <strong>Adresse web :</strong>
+        <a href="https://c-noblet.github.io/portfolio/">c-noblet.github.io</a>
+      </p>
+      <h3>Avertissements</h3>
+      
+      <p>Les utilisateurs du site de Raymond Guillon sont tenus de respecter les dispositions de la loi Informatique et libertés dont la violation est passible de sanctions pénales. </p>
+      
+      <p>Ils doivent notamment s’abstenir, s’agissant des informations nominatives auxquelles ils accèdent, de toutes collectes, toutes utilisations détournées et, d’une manière générale, de tous actes susceptibles de porter atteinte à la vie privée ou à la réputation des personnes. </p>
+      
+      <h3>Droits réservés</h3>
+      
+      <p>La structure générale, ainsi que les textes, images animées ou non composant ce site [sauf mention contraire] sont la propriété de Raymond Guillon. </p>
+      
+      <p>Toute représentation totale ou partielle de ce site, par quelque procédé que ce soit sans autorisation expresse de Raymond Guillon est interdite et constituerait une contrefaçon sanctionnée par les articles L 335-2 et suivants du Code de la propriété intellectuelle. </p>
+      
+      <h3>Liens hypertextes et cookies</h3>
+      
+      <p>Les liens hypertextes mis en place dans le cadre du présent site Web en direction d’autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de Raymond Guillon. </p>
+      
+      <p>Les utilisateurs et visiteurs du site web ne peuvent mettre en place un hyperlien en direction de ce site sans l’autorisation expresse et préalable de Raymond Guillon. </p>
+      
+      <p>Un cookie est un bloc de données qui ne permet pas d&#39;identifier l&#39;utilisateur, mais qui enregistre des informations relatives à la navigation de celui-ci sur le site. Un ou plusieurs cookies sont susceptibles de s’installer automatiquement par l&#39;intermédiaire d&#39;un navigateur web. </p>
+      
+      <p>Le paramétrage du navigateur web permet d’informer de la présence de cookie et éventuellement, de la refuser. Néanmoins le refus d&#39;installation d&#39;un cookie peut entraîner l’impossibilité d’accéder à certains services. </p>
+      
+      <h3>Vos droits</h3>
+      
+      <p>En application des articles 27 et 34 de la loi dite « Informatique et libertés » n° 78-17 du 6 janvier 1978, vous disposez d’un droit de modification ou de suppression des données qui vous concernent. Si vous souhaitez exercer ce droit, vous pouvez, à tout moment, écrire à : </p>
+      
+      <p>Raymond Guillon - Les Mathieux, F-47360 Sembas, Tél. +33 (0) 6 82 10 88 55 </p>
+      
+      <p>
+        <a href="/fr/contact">Me contacter </a>
+      </p>
+    </article>
+  </main>
+
+  
+
+  <footer class="footer">
+  <ul>
+    <li><a href="/fr/">Raymond Guillon </a> </li>
+    <li><a href="/fr/mentions-legales/">Mentions légales </a></li>
+  </ul>
+  <p>Handcrafted by <a href="https://c-noblet.github.io">Corentin Noblet</a></p>
+</footer>
+
+</body>
+
+</html>

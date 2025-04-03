@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: http://ogp.me/ns/article#">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raymond Guillon | Traductions - Français, Allemand</title>
+<meta name="description" content="Titulaire d’un Diplôme universitaire de traduction (français-espagnol-allemand), bilingue allemand-français, je suis spécialisé depuis 1999 dans la traduction de documents et actes juridiques en français et en allemand.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="John Doe">
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+<script src="/js/app.js" type="text/javascript"></script>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+<link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<meta property="og:title" content="Raymond Guillon | Traductions - Français, Allemand" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://raymond-guillon.com/fr" />
+<meta property="og:image" content="https://raymond-guillon.com/assets/profil.jpg" />
+<meta property="og:site_name" content="Raymond Guillon | Traductions - Français, Allemand" />
+
+</head>
+
+<body>
+  <nav class="navbar mx" x-data="{ 
+    url: '/traductions-actes',
+    logo: '/traductions-actes' === '/'  ? false : true,
+    lang: 'fr',
+    dropdown: false,
+  }">
+  <a id="logo" href="/fr" x-show="logo">
+    <img src="/assets/profil.jpg" alt="Raymond Guillon">
+    <span>Raymond Guillon</span>
+  </a>
+  <div id="links" style="height: 0;">
+    <ul>
+      <li :class="{ 'active': url === 'carriere' }"><a href="/fr/carriere">Carrière</a></li>
+      <li @click.away="dropdown = false" class="drop-down active">
+        <a id="drop-btn" href="#" @click="dropdown = true">
+          Compétences <i class="fas fa-sort-down"></i>
+        </a>
+        <ul id="modal" x-show="dropdown || window.innerWidth < 768">
+          <li><a href="/fr/traductions-juridiques">Traductions juridiques certifiées </a></li>
+          <li><a href="/fr/droit-penal">Droit pénal</a></li>
+          <li><a href="/fr/droit-civil">Droit civil</a></li>
+          <li><a href="/fr/traductions-actes">Traduction d’actes</a></li>
+          <li><a href="/fr/interpretariat">Interprétariat de liaison</a></li>
+        </ul>
+      </li>
+      <li :class="{ 'active': url === '/transcriptions' }"><a href="/fr/transcriptions">Transcription</a></li>
+      <li :class="{ 'active': url === '/methodes' }"><a href="/fr/methodes">Honoraires</a></li>
+      <li :class="{ 'active': url === '/contact' }"><a href="/fr/contact">Contact</a></li>
+    </ul>
+    <select id="lang-selector" name="lang">
+      
+      <option x-bind:selected="lang === 'de'" value="de">Allemand </option>
+      
+      <option x-bind:selected="lang === 'fr'" value="fr">Français </option>
+      
+    </select>
+  </div>
+  <div id="burger">
+    <span></span>
+  </div>
+</nav>
+
+  
+  <main class="mx container actes mt">
+  <article>
+    <h2>Traductions d&#39;actes</h2>
+    <hr class="title">
+    
+    <p>Actes d’état civil (naissance, reconnaissance, naturalisation, changement de nom, mariage, publication de mariage et de non-opposition, célibat, divorce, décès, livret de famille) y compris actes établis par les autorités de pays et régions francophones (Belgique, Luxembourg, Suisse, Québec, pays africains francophones) et germanophones (Autriche, Suisse, Belgique, Luxembourg) disponibles sous forme d’originaux, d’extraits ou de copies intégrales</p>
+    
+    <p>Actes notariés (testament, procès-verbal d’ouverture et de description du testament, contrat de mariage, acte de préemption, acte de vente, acte de donation, acte de notoriété, bail, titre de propriété, promesse et contrat de vente immobilière)</p>
+    
+    <div class="container">
+      <ul>
+        
+        <li>Légalisation de signature (apostille) </li>
+        
+        <li>Permis de conduire </li>
+        
+        <li>Diplômes scolaires et universitaires, relevés de notes, curriculum vitae </li>
+        
+        <li>Attestations d’assurance </li>
+        
+        <li>Attestations médicales </li>
+        
+        <li>Documents relatifs à la retraite et à la sécurité sociale </li>
+        
+        <li>Extraits de casier judiciaire </li>
+        
+        <li>Offres commerciales </li>
+        
+        <li>Contrats de travail, contrats d’agent commercial </li>
+        
+      </ul>
+      <ul>
+        
+        <li>Pièces d’identité (CNI, passeport, permis de séjour, certificat de résidence) </li>
+        
+        <li>Certificats d’immatriculation </li>
+        
+        <li>Certificats de travail </li>
+        
+        <li>Attestations fiscales </li>
+        
+        <li>Comptes rendus de laboratoire </li>
+        
+        <li>Avis d’imposition </li>
+        
+        <li>Relevés bancaires, factures </li>
+        
+        <li>Contrats d’entreprise, contrats commerciaux, contrats de fourniture, contrats de service </li>
+        
+        <li>Extraits de Kbis, statuts de société, conditions générales de vente </li>
+        
+      </ul>
+    </div>
+  </article>
+</main>
+
+  
+
+  <footer class="footer">
+  <ul>
+    <li><a href="/fr/">Raymond Guillon </a> </li>
+    <li><a href="/fr/mentions-legales/">Mentions légales </a></li>
+  </ul>
+  <p>Handcrafted by <a href="https://c-noblet.github.io">Corentin Noblet</a></p>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+html {
+  font-size: 62.5%;
+}
+
+html, body, ul, li, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../../assets/wallpaper.jpg');
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  min-height: 100vh;
+  position: relative;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.7rem;
+  margin-bottom: 1.6rem;
+
+  @include laptop {
+    font-size: 6rem;
+    line-height: 7.2rem;
+  }
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  text-align: center;
+  margin-bottom: 3.2rem;
+  font-weight: 600;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include tablet {
+    max-width: 100%;
+  }
+
+  &.small {
+    @include laptop {
+      padding-left: 4px;
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+    }
+  }
+
+  @include laptop {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(#000, .1);
+  margin-bottom: 1.6rem;
+
+  strong {
+    color: #dc3545;
+  }
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.15px;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.6rem;
+}
+
+.navbar, .footer {
+  a, span {
+    color: rgba(#fff, 0.75);
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+section {
+  a {
+    color: #0056b3;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+strong {
+  font-weight: 500;
+}
+
+hr {
+  margin: 3rem;
+  border-color: rgba(#000, .1);
+
+  @include laptop {
+    margin: 5rem;
+  }
+
+  &.title {
+    margin: 0 0 1.6rem 0;
+  }
+}
+
+
+
+article {
+  .container {
+    justify-content: space-between;
+
+    ul {
+      width: 50%;
+      padding: 0 1.5rem;
+
+      li {
+        word-wrap: break-word;
+      }
+
+      @include phone {
+        width: 45%;
+      }
+    }
+  }
+
+  ul {
+    margin-bottom: 1.6rem;
+  }
+
+  p {
+    text-indent: 2rem;
+  }
+}

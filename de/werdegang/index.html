@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de" prefix="og: http://ogp.me/ns/article#">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raymond Guillon | Übersetzungen - Französisch, Deutsch</title>
+<meta name="description" content="Als deutsch- und französischsprachiger Diplom-Übersetzer (Französisch-Spanisch-Deutsch) bin ich seit 1999 auf die Übersetzung von juristischen Dokumenten und Urkunden in die französische und deutsche Sprache spezialisiert.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="John Doe">
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+<script src="/js/app.js" type="text/javascript"></script>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+<link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<meta property="og:title" content="Raymond Guillon | Übersetzungen - Französisch, Deutsch" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://raymond-guillon.com/de" />
+<meta property="og:image" content="https://raymond-guillon.com/assets/profil.jpg" />
+<meta property="og:site_name" content="Raymond Guillon | Übersetzungen - Französisch, Deutsch" />
+
+</head>
+
+<body>
+  <nav class="navbar mx" x-data="{ 
+    url: '/carriere',
+    logo: '/carriere' === '/'  ? false : true,
+    lang: 'de',
+    dropdown: false,
+  }">
+  <a id="logo" href="/de" x-show="logo">
+    <img src="/assets/profil.jpg" alt="Raymond Guillon">
+    <span>Raymond Guillon</span>
+  </a>
+  <div id="links" style="height: 0;">
+    <ul>
+      <li :class="{ 'active': url === 'carriere' }"><a href="/de/werdegang">Werdegang</a></li>
+      <li @click.away="dropdown = false" class="drop-down ">
+        <a id="drop-btn" href="#" @click="dropdown = true">
+          Fachgebiete <i class="fas fa-sort-down"></i>
+        </a>
+        <ul id="modal" x-show="dropdown || window.innerWidth < 768">
+          <li><a href="/de/beglaubigte-juritische-ubersetzungen">Beglaubigte juristische Übersetzungen </a></li>
+          <li><a href="/de/strafrecht">Strafrecht</a></li>
+          <li><a href="/de/zivilrecht">Zivilrecht</a></li>
+          <li><a href="/de/urkundenübersetzungen">Urkundenübersetzungen</a></li>
+          <li><a href="/de/verhandlungsdolmetschen">Verhandlungsdolmetschen</a></li>
+        </ul>
+      </li>
+      <li :class="{ 'active': url === '/transcriptions' }"><a href="/de/transkription">Transkription</a></li>
+      <li :class="{ 'active': url === '/methodes' }"><a href="/de/honorare">Honorare</a></li>
+      <li :class="{ 'active': url === '/contact' }"><a href="/de/kontakt">Kontakt</a></li>
+    </ul>
+    <select id="lang-selector" name="lang">
+      
+      <option x-bind:selected="lang === 'de'" value="de">Deutsch </option>
+      
+      <option x-bind:selected="lang === 'fr'" value="fr">Französisch </option>
+      
+    </select>
+  </div>
+  <div id="burger">
+    <span></span>
+  </div>
+</nav>
+
+  
+  <main class="mx container carriere mt">
+  <article>
+    <h2>Werdegang </h2>
+    <hr>
+    <ul>
+      
+      <li>
+        <div class="card">
+          <h4><i class="fas fa-briefcase"></i> Sachverständiger Übersetzer und Dolmetscher</h4>
+          <span></span>
+          <p>Sachverständiger Übersetzer und Dolmetscher für die deutsche Sprache beim Berufungsgericht Agen</p>
+        </div>
+      </li>
+      
+      <li>
+        <div class="card">
+          <h4><i class="fas fa-briefcase"></i> Vereidigter Übersetzer</h4>
+          <span></span>
+          <p>Für die saarländischen Gerichte und Notare in den Sprachen Französisch und Spanisch vereidigter Übersetzer</p>
+        </div>
+      </li>
+      
+      <li>
+        <div class="card">
+          <h4><i class="fas fa-briefcase"></i> Mitglied in einer Sachverständigenvereinigung</h4>
+          <span></span>
+          <p>Mitglied in der Vereinigung der beim Berufungsgericht Agen vereidigten Gerichtssachverständigen</p>
+        </div>
+      </li>
+      
+      <li>
+        <div class="card">
+          <h4><i class="fas fa-briefcase"></i> Übersetzer und Verhandlungsdolmetscher </h4>
+          <span>Seit 2002</span>
+          <p>Übersetzer und Dolmetscher in der Keramikindustrie bei Verhandlungen von Ausrüstungsliefer- und Dienstleistungsverträgen, Telefonkonferenzen, Inbetriebnahmen, Maschinenabnahmen, Bedienpersonalschulungen in den Betreiberfirmen</p>
+        </div>
+      </li>
+      
+      <li>
+        <div class="card">
+          <h4><i class="fas fa-briefcase"></i> Übersetzer und Dolmetscher für die deutsche Sprache</h4>
+          <span>Seit 1999</span>
+          <p>Übersetzer und Dolmetscher für die deutsche Sprache, beauftragt von den folgenden Gerichtsbehörden und Einrichtungen: Cour d’Assises de Paris, Cour d’Assises du Gers (Schwurgerichte), Cour d’Appel de Paris (Berufungsgericht), Chambre spéciale des Mineurs de la Cour d’Appel d’Agen (Spezielle Jugendkammer des Berufungsgerichts), Cabinet d’instruction du TGI de Bobigny, Cabinet d’instruction du TGI d’Agen (Untersuchungsrichterämter bei Großinstanzgerichten), TGI de Meaux, TGI d’Evry, TGI de Toulouse, TGI d’Auch (Großinstanzgerichte), Centre médico-psychologique adulte de Figeac et d’Agen (Medizinisch-psychologische Zentren für Erwachsene), Nationale Gendarmerie, Nationale Polizei, École Nationale d’Administration Pénitentiaire (Nationale Justizvollzugsschule); beglaubigte Übersetzungen für Rechtsanwälte, Gerichtsvollzieher, Notare, Firmen und Privatpersonen in Frankreich und Deutschland</p>
+        </div>
+      </li>
+      
+      <li>
+        <div class="card">
+          <h4><i class="fas fa-briefcase"></i> Stammübersetzer und -Dolmetscher</h4>
+          <span>1999/2002</span>
+          <p>Stammübersetzer und -Dolmetscher für die Geschäftsführung einer im Großraum Paris ansässigen Gesellschaft im Rahmen der Restrukturierung und Leitung eines Industriestandortes in Sachsen-Anhalt</p>
+        </div>
+      </li>
+      
+      <li>
+        <div class="card">
+          <h4><i class="fas fa-briefcase"></i> Übersetzer im Angestelltenverhältnis</h4>
+          <span>1997/1999</span>
+          <p>Übersetzer im Angestelltenverhältnis in einem Übersetzungsbüro in Baden-Württemberg</p>
+        </div>
+      </li>
+      
+      <li>
+        <div class="card">
+          <h4><i class="fas fa-graduation-cap"></i> Übersetzer-Hochschulstudium</h4>
+          <span></span>
+          <p>Übersetzer-Hochschulstudium in den Sprachen Französisch, Spanisch, Deutsch - akademischer Grad eines Diplom-Übersetzers für Französisch und Spanisch verliehen von der Universität des Saarlandes</p>
+        </div>
+      </li>
+      
+      <li>
+        <div class="card">
+          <h4><i class="fas fa-graduation-cap"></i> Duale kaufmännische Berufsausbildung</h4>
+          <span></span>
+          <p>Duale kaufmännische Berufsausbildung in der internationalen Spedition DANZAS; bestandene Abschlussprüfung zum Speditionskaufmann vor der Südwestfälischen Industrie- und Handelskammer zu Hagen</p>
+        </div>
+      </li>
+      
+    </ul>
+  </article>
+</main>
+
+  
+
+  <footer class="footer">
+  <ul>
+    <li><a href="/de/">Raymond Guillon </a> </li>
+    <li><a href="/de/rechtliche-hinweise/">Rechtliche Hinweise </a></li>
+  </ul>
+  <p>Handcrafted by <a href="https://c-noblet.github.io">Corentin Noblet</a></p>
+</footer>
+
+</body>
+
+</html>

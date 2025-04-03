@@ -1,0 +1,29 @@
+.contact {
+
+  p {
+    text-indent: 0;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 1rem;
+
+    p {
+      text-indent: 0;
+      display: inline;
+    }
+  }
+
+  abbr {
+    text-decoration: underline;
+  }
+
+  address {
+    font-style: normal;
+    display: inline;
+  }
+
+  a {
+    color: #0056b3;
+  }
+}

@@ -1,0 +1,22 @@
+.mx {
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  @include phone {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  @include laptop {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+.container {
+  display: flex;
+
+  @include phone {
+    margin-top: 0 !important;
+  }
+}

@@ -1,0 +1,20 @@
+@import './variables.scss';
+
+/* Utils */
+@import './utils/typo.scss';
+@import './utils/grid.scss';
+@import './utils/utils.scss';
+
+/* Components */
+@import './components/navbar.scss';
+@import './components/footer.scss';
+@import './components/stars.scss';
+@import './components/lightbox.scss';
+
+/* Pages */
+@import './pages/home.scss';
+@import './pages/carriere.scss';
+@import './pages/methodes.scss';
+@import './pages/transcriptions.scss';
+@import './pages/contact.scss';
+@import './pages/mentions.scss';

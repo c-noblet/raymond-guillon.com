@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: http://ogp.me/ns/article#">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raymond Guillon | Traductions - Français, Allemand</title>
+<meta name="description" content="Titulaire d’un Diplôme universitaire de traduction (français-espagnol-allemand), bilingue allemand-français, je suis spécialisé depuis 1999 dans la traduction de documents et actes juridiques en français et en allemand.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="John Doe">
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+<script src="/js/app.js" type="text/javascript"></script>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+<link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<meta property="og:title" content="Raymond Guillon | Traductions - Français, Allemand" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://raymond-guillon.com/fr" />
+<meta property="og:image" content="https://raymond-guillon.com/assets/profil.jpg" />
+<meta property="og:site_name" content="Raymond Guillon | Traductions - Français, Allemand" />
+
+</head>
+
+<body>
+  <nav class="navbar mx" x-data="{ 
+    url: '/traductions-juridiques',
+    logo: '/traductions-juridiques' === '/'  ? false : true,
+    lang: 'fr',
+    dropdown: false,
+  }">
+  <a id="logo" href="/fr" x-show="logo">
+    <img src="/assets/profil.jpg" alt="Raymond Guillon">
+    <span>Raymond Guillon</span>
+  </a>
+  <div id="links" style="height: 0;">
+    <ul>
+      <li :class="{ 'active': url === 'carriere' }"><a href="/fr/carriere">Carrière</a></li>
+      <li @click.away="dropdown = false" class="drop-down active">
+        <a id="drop-btn" href="#" @click="dropdown = true">
+          Compétences <i class="fas fa-sort-down"></i>
+        </a>
+        <ul id="modal" x-show="dropdown || window.innerWidth < 768">
+          <li><a href="/fr/traductions-juridiques">Traductions juridiques certifiées </a></li>
+          <li><a href="/fr/droit-penal">Droit pénal</a></li>
+          <li><a href="/fr/droit-civil">Droit civil</a></li>
+          <li><a href="/fr/traductions-actes">Traduction d’actes</a></li>
+          <li><a href="/fr/interpretariat">Interprétariat de liaison</a></li>
+        </ul>
+      </li>
+      <li :class="{ 'active': url === '/transcriptions' }"><a href="/fr/transcriptions">Transcription</a></li>
+      <li :class="{ 'active': url === '/methodes' }"><a href="/fr/methodes">Honoraires</a></li>
+      <li :class="{ 'active': url === '/contact' }"><a href="/fr/contact">Contact</a></li>
+    </ul>
+    <select id="lang-selector" name="lang">
+      
+      <option x-bind:selected="lang === 'de'" value="de">Allemand </option>
+      
+      <option x-bind:selected="lang === 'fr'" value="fr">Français </option>
+      
+    </select>
+  </div>
+  <div id="burger">
+    <span></span>
+  </div>
+</nav>
+
+  
+  <main class="mx container juridiques mt">
+  <article>
+    <h2>Traductions juridiques certifiées</h2>
+    <hr class="title">
+    
+    <p>Documents juridiques : commissions rogatoires internationales, demandes d’entraide judiciaire internationale, jugements, arrêts, décisions, significations, notifications, requêtes, conclusions, assignations, convocations, citations, mandements, sommations, mises en demeure, réquisitions, ordonnances, ordonnances de référé, arrêtés, procès-verbaux, contraventions, bulletins, avis, actes, attestations, certificats</p>
+    
+    <h3>Traductions certifiées, traductions assermentées, traductions jurées, apostilles : <strong>ce qu’il faut savoir !</strong></h3>
+    
+    <p>La traduction certifiée est soumise à des règles de déontologie précises. Une traduction certifiée, parfois appelée traduction assermentée ou traduction jurée, est une traduction effectuée par un traducteur qui a prêté serment auprès d&#39;un Tribunal. En apposant la mention « traduction certifiée conforme à l’original », son cachet, sa signature, la date et le numéro d’ordre unique sur la traduction ainsi que son cachet et sa signature ou son paraphe sur l’original, le traducteur assermenté (ou traducteur expert près d’une Cour d’Appel) certifie la conformité de la traduction avec l’original. En France comme à l’étranger, cette procédure est nécessaire pour que la traduction ait la même valeur juridique que le document d’origine. Dans le cadre des échanges transfrontaliers, une traduction certifiée peut vous être demandée par une autorité, une administration, un notaire, un avocat, un employeur etc. Une traduction certifiée est reconnue comme un document officiel par les tribunaux et l&#39;administration. Seul un traducteur assermenté (ou traducteur expert près d’une Cour d’Appel) peut certifier des traductions.</p>
+    
+    <p>Pour une traduction certifiée, le demandeur exige généralement que la traduction soit effectuée à partir de l’original et non à partir d’une copie. Cela signifie que le traducteur assermenté devra apposer son tampon et sa signature sur l’original papier fourni et non sur une copie papier de l’original. Dans ce cas, vous devez faire parvenir l’original au traducteur assermenté, ce qui doit être pris en compte dans les délais de réalisation et de livraison. Une certification à partir d’une copie peut être acceptée. Il est recommandé de se renseigner auprès du demandeur de la traduction certifiée s’il accepte que celle-ci soit effectuée à partir de l’original ou d’une copie.</p>
+    
+    <p>Après la réalisation d’une traduction certifiée, l’autorité requérante en France ou à l’étranger peut demander la légalisation de la signature du traducteur assermenté figurant sur la traduction et sur l’original. Cette légalisation, appelée apostille, a pour but d’attester l&#39;authenticité de la signature et la qualité du signataire du document. La procédure de légalisation est réalisée par la mairie du domicile du traducteur assermenté, ou par un notaire, ou par une Chambre de Commerce et d’Industrie.</p>
+    
+    <p>Après la réalisation d’une traduction certifiée, l’autorité requérante en France ou à l’étranger peut demander la légalisation de la signature du traducteur assermenté figurant sur la traduction et sur l’original. Cette légalisation, appelée apostille, a pour but d’attester l&#39;authenticité de la signature et la qualité du signataire du document. La procédure de légalisation est réalisée par la mairie du domicile du traducteur assermenté, ou par un notaire, ou par une Chambre de Commerce et d’Industrie.</p>
+    
+    <p>Signature de la Convention de La Haye du 5 octobre 1961 (sans dispense d’apostille) par le pays de destination (celui dans lequel seront utilisés le document et sa traduction) : il faudra présenter l’original et la traduction certifiée ainsi que la légalisation de la signature de l’expert au service de l’apostille de la Cour d’Appel dont dépend la personne qui a légalisé la signature du traducteur assermenté.</p>
+    
+    <p>Non-signature de la Convention de La Haye du 5 octobre 1961 par le pays de destination (celui dans lequel seront utilisés le document et sa traduction) : il sera nécessaire de présenter l’original et la traduction certifiée ainsi que la légalisation de la signature de l’expert au Bureau des Légalisations du Ministère des Affaires étrangères et, ensuite, au consulat ou à l’ambassade du pays étranger concerné.</p>
+    
+    <p>Il existe une dispense de légalisation et/ou d’apostille pour certains pays.</p>
+    
+    <p>Certains organismes destinataires en France ou à l’étranger demandent que le document original soit apostillé avant la traduction de celui-ci afin que l’apostille figurant sur le document original soit également traduite.</p>
+    
+    <p>Je peux vous apporter mon conseil dans les démarches de certification à suivre pour vos documents à traduire.</p>
+    
+  </article>
+</main>
+
+  
+
+  <footer class="footer">
+  <ul>
+    <li><a href="/fr/">Raymond Guillon </a> </li>
+    <li><a href="/fr/mentions-legales/">Mentions légales </a></li>
+  </ul>
+  <p>Handcrafted by <a href="https://c-noblet.github.io">Corentin Noblet</a></p>
+</footer>
+
+</body>
+
+</html>

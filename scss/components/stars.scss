@@ -1,0 +1,26 @@
+.letter {
+  color: white;
+  font-size: 1.5rem;
+}
+
+@keyframes fall {
+  0% {
+    top: -70px
+  }
+
+  100% {
+    top: 100%
+  }
+}
+
+@keyframes turn {
+  100% {
+    transform: rotatez(180deg) rotatey(180deg);
+  }
+}
+
+@keyframes turn-alt {
+  100% {
+    transform: rotatez(-180deg) rotatey(-180deg);
+  }
+}
