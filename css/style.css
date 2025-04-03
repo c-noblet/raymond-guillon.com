@@ -13,8 +13,8 @@ html, body, ul, li, figure {
 body {
   background-image: url("../../assets/wallpaper.jpg");
   font-family: "Roboto", sans-serif;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
   letter-spacing: 0.5px;
   font-weight: 300;
   min-height: 100vh;
@@ -31,7 +31,7 @@ h1 {
   font-weight: 700;
   font-size: 4.8rem;
   line-height: 5.7rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
 }
 @media (min-width: 768px) {
   h1 {
@@ -76,7 +76,7 @@ h3 {
   line-height: 2.8rem;
   padding-bottom: 0.25rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
 }
 h3 strong {
   color: #dc3545;
@@ -93,7 +93,7 @@ h4 {
 p {
   margin: 0;
   padding: 0;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
 }
 
 .navbar a, .navbar span, .footer a, .footer span {
@@ -126,7 +126,7 @@ hr {
   }
 }
 hr.title {
-  margin: 0 0 1.6rem 0;
+  margin: 0 0 1.8rem 0;
 }
 
 article .container {
@@ -145,7 +145,7 @@ article .container ul li {
   }
 }
 article ul {
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
 }
 article p {
   text-indent: 2rem;
@@ -288,7 +288,7 @@ article {
 .navbar #links > ul li.drop-down #modal {
   overflow: hidden;
   z-index: 3;
-  width: 20rem;
+  min-width: 20rem;
 }
 @media (min-width: 768px) {
   .navbar #links > ul li.drop-down #modal {
@@ -338,7 +338,7 @@ article {
   border: none;
   margin: 1rem 3rem;
   color: #495057;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 2.4rem;
 }
 @media (min-width: 768px) {
@@ -399,12 +399,12 @@ article {
 }
 .footer ul li {
   border: 0;
-  padding: 0 1.6rem;
+  padding: 0 1.8rem;
   display: inline;
 }
 @media (max-width: 576px) {
   .footer ul li {
-    padding: 1rem 1.6rem;
+    padding: 1rem 1.8rem;
   }
 }
 .footer p {

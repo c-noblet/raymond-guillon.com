@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
   const $burger = document.getElementById('burger');
   const $links = document.getElementById('links');
   const $lang = document.getElementById('lang-selector');
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { fr: '/fr/transcriptions/', de: '/de/transkription/' },
   ]
 
-  $lang.addEventListener('change', function() {
+  $lang.addEventListener('change', () => {
     const selectedLang = $lang.value;
     const currentPath = window.location.pathname;
     const currentLink = linksMap.find(link => link.fr === currentPath || link.de === currentPath);
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.location = newLink;
   });
 
-  $burger.addEventListener('click', function() {
+  $burger.addEventListener('click', () => {
     if ($links.style.height === '0px') {
       $links.style.height = '100vh';
       $burger.style.transform = 'rotate(-90deg)';

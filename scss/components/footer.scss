@@ -17,11 +17,11 @@
 
     li {
       border: 0;
-      padding: 0 1.6rem;
+      padding: 0 1.8rem;
       display: inline;
 
       @include phone {
-        padding: 1rem 1.6rem;
+        padding: 1rem 1.8rem;
       }
     }
   }

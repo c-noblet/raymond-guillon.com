@@ -10,8 +10,8 @@ html, body, ul, li, figure {
 body {
   background-image: url('../../assets/wallpaper.jpg');
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
   letter-spacing: 0.5px;
   font-weight: 300;
   min-height: 100vh;
@@ -28,7 +28,7 @@ h1 {
   font-weight: 700;
   font-size: 4.8rem;
   line-height: 5.7rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
 
   @include laptop {
     font-size: 6rem;
@@ -71,7 +71,7 @@ h3 {
   line-height: 2.8rem;
   padding-bottom: 0.25rem;
   border-bottom: 1px solid rgba(#000, .1);
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
 
   strong {
     color: #dc3545;
@@ -89,7 +89,7 @@ h4 {
 p {
   margin: 0;
   padding: 0;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
 }
 
 .navbar, .footer {
@@ -127,7 +127,7 @@ hr {
   }
 
   &.title {
-    margin: 0 0 1.6rem 0;
+    margin: 0 0 1.8rem 0;
   }
 }
 
@@ -152,7 +152,7 @@ article {
   }
 
   ul {
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.8rem;
   }
 
   p {

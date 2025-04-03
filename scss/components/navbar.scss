@@ -79,7 +79,7 @@
           #modal {
             overflow: hidden;
             z-index: 3;
-            width: 20rem;
+            min-width: 20rem;
 
             @include laptop {
               top: 3rem;
@@ -134,7 +134,7 @@
     border: none;
     margin: 1rem 3rem;
     color: #495057;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 2.4rem;
 
     @include laptop {
